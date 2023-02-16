@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFIlE
+CFILE=1-main.c
