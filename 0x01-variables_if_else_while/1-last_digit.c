@@ -7,9 +7,8 @@
 /**
   * main - Entry point
   *
-  * Return: - Always o (success)
+  * Return: Always 0 (success)
   */
-
 int main(void)
 {
 	int n;
@@ -28,4 +27,3 @@ int main(void)
 		printf("last digit of %d is %d and is less than 6 and not 0\n", n, m);
 	return (0);
 }
-
