@@ -9,9 +9,7 @@
 
 void print_times_table(int n)
 {
-	int a;
-	int b;
-	int c;
+	int a, b, c;
 
 	if (n >= 0 && n <= 14)
 	{
@@ -48,9 +46,7 @@ void print_times_table(int n)
 					_putchar(c + '0');
 				}
 			}
-
 			_putchar('\n');
 		}
 	}
-
 }
