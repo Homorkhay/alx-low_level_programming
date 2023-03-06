@@ -4,7 +4,7 @@
   * _strpbrk - searches a string for set of bytes
   * @s: string
   * @accept: accepted characters
-  *
+  * Return: the string since the first found accepted character
   */
 
 char *_strpbrk(char *s, char *accept)
