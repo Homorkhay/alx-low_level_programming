@@ -12,6 +12,6 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
->>>>>>> 5745cd56d3059eabdb444f463f2e713a4ac38dcc
+void set_string(char **s, char *to);
 
 #endif
