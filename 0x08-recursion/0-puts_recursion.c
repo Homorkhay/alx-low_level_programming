@@ -2,9 +2,15 @@
 
 /**
   * _puts_recursion - prints a string followed by a new line
+<<<<<<< HEAD
   * @s: string to be printed
   *
   * Return: Nothing
+=======
+  * @s: string to br printed
+  *
+  * Return: nothing
+>>>>>>> refs/remotes/origin/master
   */
 
 void _puts_recursion(char *s)
