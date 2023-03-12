@@ -1,0 +1,44 @@
+#include "main.h"
+#include <stdioh>
+#include <stdlib.h>
+#include <string.h>
+
+/**
+  * main - writes a program that add positive numbers
+  * @argc: Argument count
+  * @argv: Argument vector
+  *
+  * Return: always
+ */
+
+int main(int argc, char *argv[])
+{
+	int i;
+	unsigned int k, sum = 0;
+	char *e;
+
+	if (argc > 1)
+	{
+		for (i = 1; i < argc; i++)
+		{
+			e = argv[i];
+
+			for (k = 0; k < strlen(e); k++)
+			{
+				if (e[k] < 48 || e[k] > 57)
+				{
+					printf("error\n");
+					return (1);
+				}
+			}
+			sum += atoi(e);
+			e++;
+		}
+		printf("%d\n", sum);
+	}
+	else
+	{
+		printf("0\n");
+	}
+	return (0);
+}
