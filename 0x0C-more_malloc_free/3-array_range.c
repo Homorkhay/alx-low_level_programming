@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-  * array_range creates an array of integers
+  * array_range - creates an array of integers
   * @min: Values to be printed
   * @max: Values
   *
@@ -28,5 +28,6 @@ int *array_range(int min, int max)
 	{
 		arr[i] = min + i;
 	}
+
 	return (arr);
 }
