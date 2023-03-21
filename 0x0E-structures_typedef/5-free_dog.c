@@ -1,5 +1,5 @@
 #include "dog.h"
-#include <stdib.h>
+#include <stdlib.h>
 
 /**
   * free_dog - frees dogs
