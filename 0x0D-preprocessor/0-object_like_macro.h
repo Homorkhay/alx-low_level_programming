@@ -3,4 +3,4 @@
 
 #define SIZE 1024
 
-#endif /* OBJECT LIKE MACRO */
+#endif /* OBJECT_LIKE_MACRO */
