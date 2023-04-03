@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-  * free_listint2 - fres a linked list
+  * free_listint2 - frees a linked list
   * @head: double pointer to head
   *
   * Return: .....
