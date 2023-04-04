@@ -4,7 +4,7 @@
 
 /**
   * delete_nodeint_at_index - deletes node at index of a linked list
-  * @head: double pointer to head 
+  * @head: double pointer to head
   * @index: index of the node that should be deleted
   *
   * Return: ...
