@@ -1,6 +1,7 @@
 #ifndef _linked_list
 #define _linked_list
 #include <stddef.h>
+#include <stdlib.h>
 
 /**
  * struct listint_s - singly linked list
