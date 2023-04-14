@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-#define BUFFER_SIZE 102
+#define BUFFER_SIZE 1024
 
 /**
   * main - Entry point
