@@ -47,8 +47,7 @@ void copy_file(const char *src, const char *dest)
 	{
 		if (write(file_to, buffer, readed) != readed || file_to == -1)
 		{
-			dprintf(STDERR_FILENO, "
-Error: Can't write to %s\n", dest);
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", dest);
 			exit(99);
 		}
 	}
