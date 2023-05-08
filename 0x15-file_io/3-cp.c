@@ -43,7 +43,7 @@ void copy_file(const char *src, const char *dest)
 	}
 
 	file_to = open(dest, O_CREAT | O_WRONLY | O_TRUNC, 0664);
-	while ((readed = read(file_from, buffer, 1024)) > 0)
+	while ((readed = read(file_from, buffer, BUFFER_SIZE)) > 0)
 	{
 		if (write(file_to, buffer, readed) != readed || file_to == -1)
 		{
