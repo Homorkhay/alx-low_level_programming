@@ -1,5 +1,5 @@
 <h1 align="center">Alx  Low Level Programming</h1>
-This repository stores my solutions to the amazing low-level programming projects I did at the Holberton Campus.
+This repository contains all the solutions to the projects I undertake in Alx_SE Programme
 
 ---
 
