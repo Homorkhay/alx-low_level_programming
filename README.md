@@ -4,8 +4,8 @@ This repository stores my solutions to the amazing low-level programming project
 ---
 
 ## Table of Coontents
-- Projects(#projects)
-- Usage(#usage)
+- [Projects](#projects)
+- [Usage](#usage)
 
 ## Projects
 ### In this repository, here is the list of projects with each description in their respective folder
